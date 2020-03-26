@@ -1,0 +1,41 @@
+<div class="card border-primary mb-3">
+    <div class="card-header">Opportunities</div>
+    <div class="card-body">
+      <h4 class="card-title">An Opportunity represents any kind of business development effort that you would like to track and move along through a process.  </h4>
+      <table class="table table-hover">
+        <thead>
+            <tr class="table-primary">
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Company</th>
+                <th scope="col">Stage</th>
+                <th scope="col">Value</th>
+                <th scope="col">Close Date</th>
+                <th scope="col">Win</th>
+                <th scope="col">Status</th>
+                <th scope="col">Lose Reason</th>
+                <th scope="col">Priority</th>
+                <th scope="col">Source</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor = 'let opp of opportunities'>
+                <th>{{opp.oppTag}}</th>
+                <th>{{opp.oppName}}</th>
+                <th>{{opp.oppCompany}}</th>
+                <th>{{opp.oppStage}}</th>
+                <th>{{opp.oppValue}}</th>
+                <th>{{opp.oppClose}}</th>
+                <th>{{opp.oppWin}}</th>
+                <th>{{opp.oppStatus}}</th>
+                <th>{{opp.oppLossReason}}</th>
+                <th>{{opp.oppPriority}}</th>
+                <th>{{opp.oppSource}}</th>
+                <th>{{opp.oppDescription}}</th>
+            </tr>
+        </tbody>
+       </table>
+    </div>
+</div>
+        

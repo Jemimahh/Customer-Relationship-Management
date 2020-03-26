@@ -12,7 +12,7 @@ Build a CRM that helps  a sales pipline. This first version uses a google sheets
 
 The main pupose of this project is to become better with technologies used to build web applications. I chose to build with Angular in other to implement a single page funtionality. I used  Asp.net core because... why not, practice makes perfect.
 
-## Funtionality
+## Functionality
 
 This application main goal is get data for sales pipline and display a summary of on a dashboard.
 

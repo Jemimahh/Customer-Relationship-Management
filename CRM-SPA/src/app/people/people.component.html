@@ -1,0 +1,44 @@
+<div class="card border-primary mb-3">
+    <div class="card-header">People</div>
+    <div class="card-body">
+      <h4 class="card-title">A Person is someone you have already qualified to do business with.  </h4>
+      <table class="table table-hover">
+        <thead>
+          <tr class="table-primary">
+            <th scope="col">Tag</th>
+            <th scope="col">Name</th>
+            <th scope="col">Company</th>
+            <th scope="col">Work Email</th>
+            <th scope="col">Title</th>
+            <th scope="col">Contact Type</th>
+            <th scope="col">Work Phone</th>
+            <th scope="col">Work Website</th>
+            <th scope="col">Address</th>
+            <th scope="col">City</th>
+            <th scope="col">Zip</th>
+            <th scope="col">Linkedin</th>
+            <th scope="col">Description</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr 
+          *ngFor='let person of persons'>
+            <th>{{person.peopleTag}}</th>
+            <th>{{person.peopleName}}</th>
+            <th>{{person.peopleCompany}}</th>
+            <th>{{person.peopleWorkEmail}}</th>
+            <th>{{person.peopleTitle}}</th>
+            <th>{{person.peopleContactType}}</th>
+            <th>{{person.peopleWorkPhone}}</th>
+            <th>{{person.peopleWorkWebsite}}</th>
+            <th>{{person.peopleAddress}}</th>
+            <th>{{person.peopleCity}}</th>
+            <th>{{person.peopleZip}}</th>
+            <th>{{person.peopleLindin}}</th>
+            <th>{{person.peopleDescription}}</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</div>
