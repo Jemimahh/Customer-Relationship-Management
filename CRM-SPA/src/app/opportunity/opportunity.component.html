@@ -25,9 +25,9 @@
                 <th>{{opp.oppName}}</th>
                 <th>{{opp.oppCompany}}</th>
                 <th>{{opp.oppStage}}</th>
-                <th>{{opp.oppValue}}</th>
+                <th>{{opp.oppValue | currency:'USD':'symbol':'1.2-2'}}</th>
                 <th>{{opp.oppClose}}</th>
-                <th>{{opp.oppWin}}</th>
+                <th>{{opp.oppWin | percent }}</th>
                 <th>{{opp.oppStatus}}</th>
                 <th>{{opp.oppLossReason}}</th>
                 <th>{{opp.oppPriority}}</th>
